@@ -1,4 +1,5 @@
 package negocio;
 
-public interface IUsuario {
+public interface IUsuario extends ICRUDGeneric {
+
 }
