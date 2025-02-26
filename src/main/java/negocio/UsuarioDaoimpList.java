@@ -19,7 +19,7 @@ public class UsuarioDaoimpList implements IUsuarioDao{
     }
 
     @Override
-    public int deleteById(Integer atributoPk) {
+    public int deleteById(Integer id) {
         return 0;
     }
 
