@@ -24,11 +24,11 @@ public class TaskDaoImplList implements ITaskDao {
     }
 
     @Override
-    public int insertOne(ITaskDao objeto) {
-        if (tasks.contains ((Task)objeto)) {
+    public int insertOne(ITaskDao task) {
+        if (tasks.contains ((Task)task)) {
             return 0;
         }else{
-            tasks.add ((Task)objeto);
+            tasks.add ((Task)task);
             return 1;
         }
     }
@@ -56,7 +56,7 @@ public class TaskDaoImplList implements ITaskDao {
     }
 
     @Override
-    public int deleteByObjeto(ITaskDao objeto) {
+    public int deleteByObjeto(ITaskDao id) {
         return 0;
     }
 
