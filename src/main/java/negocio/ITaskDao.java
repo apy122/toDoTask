@@ -1,4 +1,4 @@
 package negocio;
 
-public interface ITaskDao extends ICRUDGeneric<ITaskDao, Integer> {
+public interface ITaskDao extends ICRUDGenerico<ITaskDao, Integer> {
 }

@@ -1,6 +1,4 @@
 package negocio;
 
-import javabeans.Usuario;
-
-public interface IUsuarioDao extends ICRUDGeneric<IUsuarioDao, Integer> {
+public interface IUsuarioDao extends ICRUDGenerico<IUsuarioDao, Integer> {
 }
